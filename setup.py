@@ -3,13 +3,13 @@
 from setuptools import setup
 
 import os
-lines = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read().strip().splitlines()
 
 def read(fname):
     try:
         return open(os.path.join(os.path.dirname(__file__), fname)).read()
     except IOError:
         return ''
+
 sdesc = lines[0]
 ldesc = '\n'.join(lines[1:])
 
