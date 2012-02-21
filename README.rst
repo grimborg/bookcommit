@@ -4,7 +4,7 @@ Whenever you commit, if you have an active bookmark, it will be prepended to the
 
 For example, if you execute this::
 
-	hg ci -m "message"`
+	hg ci -m "message"
 
 Then, if you have an active bookmark B123, the resulting message will be "B123 message". Otherwise, it will be just "message".
 
