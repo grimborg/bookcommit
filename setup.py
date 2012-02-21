@@ -10,9 +10,6 @@ def read(fname):
     except IOError:
         return ''
 
-sdesc = lines[0]
-ldesc = '\n'.join(lines[1:])
-
 setup(name='bookcommit',
         version='1.0',
         author='Oscar Vilaplana',
